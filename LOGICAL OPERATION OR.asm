@@ -1,0 +1,14 @@
+;LOGICAL OPERATION OR          
+          
+org 100h
+
+MOV AX,0111000011b
+MOV BX,10100b
+OR AX,BX
+OUT 4,AX
+
+ret
+
+
+
+
